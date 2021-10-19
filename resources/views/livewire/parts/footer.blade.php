@@ -20,7 +20,7 @@
         <div class="flex grid grid-cols-12 gap-x-5">
             <div class="col-span-12 md:col-span-4">
                 <a href="/"><img class="logo" src="{{ asset('images/logo.png') }}" alt="AmitKK Logo" width="120" height="45"/></a>
-                <p class="text-white">Under the watchful gaze of a tea artisan, our tea is blended and formulated with care, sealing in the flavor and aroma for those cherishable moments as you take a sip from your cup.</p>
+                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id repudiandae magnam, ad inventore harum totam ipsum molestias consequatur officiis sunt delectus eum autem eaque animi officia. Architecto qui esse id?</p>
             </div>
             <div class="col-span-12 md:col-span-4">
                 <h6 class="text-white text-xl md:text-2xl relative mb-5 pb-3">Support</h6>

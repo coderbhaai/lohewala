@@ -8,4 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class Comments extends Model
 {
     use HasFactory;
+    protected $fillable = ['type', 'pageId', 'c_order', 'commentId', 'user', 'email', 'comment', 'status'];
+    public function scopeSearch($query, $val){
+        return $query
+        ->where('user', 'like', '%'.$val.'%')
+        ->Orwhere('email', 'like', '%'.$val.'%')
+        ->Orwhere('status', 'like', '%'.$val.'%');
+    }
 }
