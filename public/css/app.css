@@ -2101,6 +2101,8 @@ video {
 }.hover\:bg-action:hover{
 	--tw-bg-opacity: 1;
 	background-color: rgba(241, 159, 64, var(--tw-bg-opacity));
+}.hover\:bg-transparent:hover{
+	background-color: transparent;
 }.hover\:text-gray-500:hover{
 	--tw-text-opacity: 1;
 	color: rgba(107, 114, 128, var(--tw-text-opacity));

@@ -44,7 +44,7 @@
         </div>
     </div>
     <div class="flex items-center justify-between px-6 border-t py-2 border-opacity-30">
-        <p class="text-white">Hindrajtea © All Rights Reserved - 2021</p>
+        <p class="text-white">The Lohewala © All Rights Reserved - 2021</p>
         <p class="text-white">Designed & Developed by <a href="https://www.amitkk.com" target="_blank">AmitKK</a></p>
     </div>
     <a target="_blank" href="//api.whatsapp.com/send?phone=918424003840&amp;text=%20Hi,%20I%20got%20your%20number%20from%20HindrajTea%20Website." class="whatsapp fixed w-12 z-50"><img src="/images/icons/whatsapp-button.svg" alt="Connect with HindrajTea on Whats App" width="50" height="50"></a>

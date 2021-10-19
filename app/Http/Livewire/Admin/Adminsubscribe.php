@@ -15,12 +15,12 @@ class Adminsubscribe extends Component
     public $perPageOptions = [10,25,50,100,1000];
 
     public function render(){
-        $this->data =   Subscribe::select('id', 'email', 'status', 'updated_at')
+        $data =   Subscribe::select('id', 'email', 'status', 'updated_at')
                         ->search($this->search)
-                        ->paginate($this->perPage);
+                        ->paginate($this->perPage); 
         return view('livewire.admin.adminsubscribe',
             [
-                'data'              =>  $this->data,
+                'data'              =>  $data,
                 'perPageOptions'    =>  $this->perPageOptions,
             ]
         );

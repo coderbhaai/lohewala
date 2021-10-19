@@ -7,7 +7,7 @@
                 </div>
                 <div class="hidden space-x-2 md:space-x-8 sm:-my-px sm:flex sm:ml-10 w-full justify-end">
                     <x-jet-nav-link href="{{ route('about') }}" class="hover:border-action">{{ __('About Us') }}</x-jet-nav-link>
-                    <x-jet-nav-link href="{{ route('blog') }}" class="hover:border-action">{{ __('Read More') }}</x-jet-nav-link>
+                    <x-jet-nav-link href="{{ route('blog') }}" class="hover:border-action">{{ __('Blog') }}</x-jet-nav-link>
                     @if(!Auth::user())
                         <div class="dd">
                             <x-jet-dropdown align="right" width="48" height="100%">

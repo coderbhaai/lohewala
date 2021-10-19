@@ -8,8 +8,8 @@
             </li>
             @foreach($data as $i)
                 <li class="px-1 md:px-5 inline-block md:block">
-                    <a href="{{ route($i['link']) }}" class="{{Route::is($i['link'])? 'bg-white text-blue-900 border-action' : 'text-white' }} relative flex flex-row items-center h-11 focus:outline-none hover:bg-blue-800 hover:text-white border-l-4 border-transparent hover:border-blue-500 py-3 pl-3 ml-2 text-sm tracking-wide truncate md:block px-3">{{ $i['name'] }}</a>
-                    </li>
+                    <a href="{{ route($i['link']) }}" class="{{Route::is($i['link'])? 'bg-white text-blue-900 border-action' : 'text-white' }} relative flex flex-row items-center h-11 focus:outline-none hover:bg-transparent hover:text-white border-l-4 border-transparent hover:border-action py-3 pl-3 ml-2 text-sm tracking-wide truncate md:block px-3">{{ $i['name'] }}</a>
+                </li>
             @endforeach
         </ul>
     </div>

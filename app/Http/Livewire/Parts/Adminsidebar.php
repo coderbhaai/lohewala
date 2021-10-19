@@ -13,6 +13,7 @@ class Adminsidebar extends Component
         [ "link"=>"adminblog", "name"=>"Blog" ],
         [ "link"=>"admincomments", "name"=>"Comments" ],
         [ "link"=>"adminusers", "name"=>"Users" ],
+        [ "link"=>"adminSubscription", "name"=>"Subscription" ],
         // [ "link"=>"adminproducts", "name"=>"Products" ],
         // [ "link"=>"adminreview", "name"=>"Reviews" ],
         // [ "link"=>"admincontact", "name"=>"Contact" ],
