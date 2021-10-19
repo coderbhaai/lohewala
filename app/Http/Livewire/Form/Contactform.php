@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Livewire\Parts;
+namespace App\Http\Livewire\Form;
 
 use Livewire\Component;
 use Mail;
@@ -13,7 +13,7 @@ class Contactform extends Component
     public $url = '';
     
     public function render(){
-        return view('livewire.parts.contactform');
+        return view('livewire.form.contactform');
     }
 
     public function submit(){

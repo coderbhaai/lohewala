@@ -25,12 +25,8 @@
             <div class="col-span-12 md:col-span-4">
                 <h6 class="text-white text-xl md:text-2xl relative mb-5 pb-3">Support</h6>
                 <ul>
-                    <li class="text-white"><a href="{{ route('aboutus') }}">About Us</a></li>
-                    <li class="text-white"><a href="{{ route('shop') }}">Products</a></li>
-                    <li class="text-white"><a href="{{ route('shipping') }}">Shipping and Returns</a></li>
-                    <li class="text-white"><a href="{{ route('tnc') }}">Terms and Conditions</a></li>
+                    <li class="text-white"><a href="{{ route('about') }}">About Us</a></li>
                     <li class="text-white"><a href="{{ route('contact') }}">Contact Us</a></li>
-                    <li class="text-white"><a href="{{ route('faq') }}">FAQ</a></li>
                 </ul>
             </div>
             <div class="col-span-12 md:col-span-4">
