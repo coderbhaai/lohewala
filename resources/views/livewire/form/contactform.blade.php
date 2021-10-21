@@ -19,8 +19,8 @@
             <textarea type="text" wire:model="message" class="h-40 mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" placeholder="Message"></textarea>
             @error('message') <span class="error text-action font-bold" ...>{{ $message }}</span> @enderror
         </div>
-        <div class="text-center mt-12 amitBtnGroup">
-            <button type="submit" class="relative overflow-hidden uppercase z-50 inline-block text-center shadow-amit amitBtn py-3 px-6 font-bold rounded-full">Submit</button>
+        <div class="text-center mt-12 group">
+            <button type="submit" class="text-center py-3 px-12 font-bold rounded-full border-2 border-primary group-hover:bg-action group-hover:border-action">Submit</button>
         </div>
 </form>
 @if(session('message'))
