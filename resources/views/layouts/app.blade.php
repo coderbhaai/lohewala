@@ -1,10 +1,33 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
-        <meta charset="utf-8">
+    <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
-        <title>{{ config('app.name', 'Laravel') }}</title>
+        <title>{{$meta->title}}</title>
+        <meta name="description" content="{{$meta->description}}"/>
+        <meta property="og:url" content="https://www.amitkk.com{{$meta->url}}"/>
+        <meta property="og:title" content="{{$meta->title}}"/>
+        <meta property="og:description" content="{{$meta->description}}"/>
+        <meta property="og:image" content="https://www.amitkk.com{{$meta->image}}"/>
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:url" content="https://www.amitkk.com{{$meta->url}}"/>
+        <meta name="twitter:title" content="{{$meta->title}}"/>
+        <meta name="twitter:description" content="{{$meta->description}}"/>
+        <meta name="twitter:image" content="https://www.amitkk.com{{$meta->image}}"/>
+        <link rel="canonical" href="https://www.amitkk.com{{$meta->url}}"/>
+        <link rel="alternate" href="https://www.amitkk.com{{$meta->url}}" hreflang="x-default" />
+        <link rel="alternate" hreflang="en" href="https://www.amitkk.com{{$meta->url}}">
+        <link rel="preconnect" href="https://www.amitkk.com{{$meta->url}}" />
+        <link rel="dns-prefetch" href="https://www.amitkk.com{{$meta->url}}" />
+        <link rel="preload" as="image" href="https://www.amitkk.com{{$meta->image}}"/>
+        <meta name="allow-search" content="yes"/>
+        <meta property="og:locale" content="en_US"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:site_name" content="Amitkk"/>
+        <meta property="article:modified_time" content="2021-08-23T17:49:25+00:00"/>
+        <meta property="fb:app_id" content="154761472308630"/>
+        <link rel="icon" type="image/x-icon" href="/images/icons/favicon.png">
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
         @livewireStyles
     </head>
