@@ -24,7 +24,8 @@ p, ul li {
 }
 
 .logo {
-  max-width: 120px;
+  max-height: 70px;
+  width: auto;
 }
 
 .dd > div, .dd > div div:first-child {
@@ -71,105 +72,6 @@ p, ul li {
   width: 85%;
   max-width: 85%;
   margin: 0 auto;
-}
-
-.amitBtn {
-  color: #fff;
-  margin: 1em auto;
-  background: #f19f40;
-}
-
-.amitBtn span:before {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 0;
-  content: "";
-  z-index: -1;
-  background-color: #151515;
-  -webkit-transition: all 0.25s ease-out;
-  transition: all 0.25s ease-out;
-  z-index: -1;
-  border-radius: 100px;
-}
-
-.amitBtn:hover {
-  background: transparent;
-}
-
-.amitBtn:hover span {
-  color: #f19f40;
-}
-
-.amitBtn:hover span:before {
-  height: 100%;
-}
-
-.amitBtnGroup:hover .amitBtn {
-  -webkit-box-shadow: 1px 2px 3px #f19f40;
-          box-shadow: 1px 2px 3px #f19f40;
-  color: #fff;
-}
-
-.amitBtnGroup:hover .amitBtn:before {
-  opacity: 0;
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-}
-
-.amitBtnGroup:hover .amitBtn:after {
-  opacity: 1;
-  -webkit-transform: scale(1);
-          transform: scale(1);
-}
-
-.amitBtnGroup .amitBtn {
-  -webkit-box-shadow: 0 1px 10px #f19f40;
-          box-shadow: 0 1px 10px #f19f40;
-}
-
-.amitBtnGroup .amitBtn:before, .amitBtnGroup .amitBtn:after {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  border-radius: 9999px;
-  -webkit-transition: .5s all;
-  transition: .5s all;
-}
-
-.amitBtnGroup .amitBtn:before {
-  background: #fff;
-  opacity: 1;
-}
-
-.amitBtnGroup .amitBtn:after {
-  background: #f19f40;
-  opacity: 0;
-  -webkit-transform: scale(0);
-          transform: scale(0);
-}
-
-.amitBtnHovered:hover .amitBtn {
-  color: #fff;
-  -webkit-box-shadow: 1px 2px 3px #f19f40;
-          box-shadow: 1px 2px 3px #f19f40;
-}
-
-.amitBtnHovered:hover .amitBtn:before {
-  opacity: 0;
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-}
-
-.amitBtnHovered:hover .amitBtn:after {
-  opacity: 1;
-  -webkit-transform: scale(1);
-          transform: scale(1);
 }
 
 nav {
