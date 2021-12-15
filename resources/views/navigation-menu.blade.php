@@ -7,7 +7,7 @@
                 </div>
                 <div class="hidden space-x-2 md:space-x-8 sm:-my-px sm:flex sm:ml-10 w-full justify-end">
                     <x-jet-nav-link href="{{ route('about') }}" class="hover:border-action">{{ __('About Us') }}</x-jet-nav-link>
-                    <x-jet-nav-link href="{{ route('blog') }}" class="hover:border-action">{{ __('Blog') }}</x-jet-nav-link>
+                    <!-- <x-jet-nav-link href="{{ route('blog') }}" class="hover:border-action">{{ __('Blog') }}</x-jet-nav-link> -->
                     <x-jet-nav-link href="{{ route('contact') }}" class="hover:border-action">{{ __('Contact Us') }}</x-jet-nav-link>
                     @if(!Auth::user())
                         <div class="dd">
@@ -73,7 +73,7 @@
     <div :class="{'block': open, 'hidden': ! open}" class="hidden sm:hidden">
         <div class="pb-2 space-y-1">
             <x-jet-responsive-nav-link href="{{ route('about') }}" class="text-white hover:cursor-pointer">{{ __('About Us') }}</x-jet-responsive-nav-link>
-            <x-jet-responsive-nav-link href="{{ route('blog') }}" class="text-white hover:cursor-pointer">{{ __('Blog') }}</x-jet-responsive-nav-link>
+            <!-- <x-jet-responsive-nav-link href="{{ route('blog') }}" class="text-white hover:cursor-pointer">{{ __('Blog') }}</x-jet-responsive-nav-link> -->
             @if(!Auth::user())
                 <div class="dd">
                     <x-jet-dropdown align="right" width="48" height="100%">
