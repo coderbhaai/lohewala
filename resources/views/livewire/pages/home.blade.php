@@ -7,7 +7,9 @@
             background: linear-gradient(#243b551a, #000000e0 );
             
         }
-
+        .banner h1, .banner h2, .banner p{
+            text-shadow: 2px 2px #000;
+        }
         .product >.info{
             visibility: hidden;
             opacity: 0;
@@ -29,21 +31,21 @@
                 <div class="swiper-slide relative">
                     <img src="/images/static/banner-1.jpg" class=""/>
                     <div class="text absolute w-full">
-                        <h1 class="text-white text-xl md:text-2xl font-bold mb-3 text-center">One stop solution for shed material</h1>
+                        <h1 class="text-white text-2xl md:text-3xl font-bold mb-3 text-center">One stop solution for shed material</h1>
                         <p class="text-white text-center">We provide all kind of shed material that you might need.</p>
                     </div>
                 </div>
                 <div class="swiper-slide relative">
                     <img src="/images/static/banner-2.jpg" loading="lazy" class=""/>
                     <div class="text absolute w-full">
-                        <h2 class="text-white text-xl md:text-2xl font-bold mb-3 text-center">One stop solution for advertising material</h2>
+                        <h2 class="text-white text-2xl md:text-3xl font-bold mb-3 text-center">One stop solution for advertising material</h2>
                         <p class="text-white text-center">We provide all advertising material and support.</p>
                     </div>
                 </div>
                 <div class="swiper-slide relative">
                     <img src="/images/static/banner-3.jpg" loading="lazy" class=""/>
                     <div class="text absolute w-full">
-                        <h2 class="text-white text-xl md:text-2xl font-bold mb-3 text-center">All kind of Iron and Steel works</h2>
+                        <h2 class="text-white text-2xl md:text-3xl font-bold mb-3 text-center">All kind of Iron and Steel works</h2>
                         <p class="text-white text-center">We provide all kind of iron and steel material.</p>
                     </div>
                 </div>
@@ -92,10 +94,10 @@
     <script src="{{ asset('/js/swiper.js') }}"></script>
     <script>
         var swiper = new Swiper(".bannerSlider", {
-            // loop: true,
+            loop: true,
             fadeEffect: { crossFade: true },
             effect: "fade",
-            // autoplay: { delay: 3000 },
+            autoplay: { delay: 3000 },
             grabCursor: true,
             slidesPerView: 1,
             spaceBetween: 30,
