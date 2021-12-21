@@ -77,16 +77,9 @@
                 <div class="bg-why col-span-12 md:col-span-6 mb-3 rounded">
                 </div>
                 <div class="col-span-12 md:col-span-6 mb-3 py-5">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="#151515"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-                    <h3 class="text-xl md:text-2xl font-semibold mt-3">Lorem, ipsum dolor.</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iste ducimus quibusdam quas delectus sit?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iste ducimus quibusdam quas delectus sit?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iste ducimus quibusdam quas delectus sit?</p>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="#151515"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-                    <h3 class="text-xl md:text-2xl font-semibold mt-3">Lorem, ipsum dolor.</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iste ducimus quibusdam quas delectus sit?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iste ducimus quibusdam quas delectus sit?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iste ducimus quibusdam quas delectus sit?</p>
+                    <p>Lohewala is recognized as the expert in the industry as our services are backed by state-of-the-art equipment and extensive experience. All our products are of brilliant quality and are provided at a very competitive price and a very quick turnaround. </p>
+                    <p>Iron and steel works being a specialized field, we have built long-term partnerships with local, small, and major companies across the country. Our flexibility, professionalism, and expertise help us exceed the client’s needs – always. </p>
+                    <p>Our service focuses on our bespoke products, and our ability to create customized products that meet the high standards of the industry. Be it a unique metal fabrication, bolts, base plates, or flashings, we are always ready to offer the best to our clients.</p>
                 </div>
             </div>
         </div>
