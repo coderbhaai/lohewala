@@ -47,5 +47,5 @@
         <p class="text-white">© Aapka Apna Lohewala</p>
         <p class="text-white">Designed & Developed by <a href="https://www.amitkk.com" target="_blank">AmitKK</a></p>
     </div>
-    <a target="_blank" href="//api.whatsapp.com/send?phone=918424003840&amp;text=%20Hi,%20I%20got%20your%20number%20from%20HindrajTea%20Website." class="whatsapp fixed w-12 z-50"><img src="/images/icons/whatsapp-button.svg" alt="Connect with HindrajTea on Whats App" width="50" height="50"></a>
+    <a target="_blank" href="//api.whatsapp.com/send?phone=919899359541&amp;text=%20Hi,%20I%20got%20your%20number%20from%20Lohewala%20Website." class="whatsapp fixed w-12 z-50"><img src="/images/icons/whatsapp-button.svg" alt="Connect with Lohewala on Whats App" width="50" height="50"></a>
 </footer>
