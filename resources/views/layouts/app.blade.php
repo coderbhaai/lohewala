@@ -4,29 +4,36 @@
     <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
-        <title>{{$meta->title}}</title>
-        <meta name="description" content="{{$meta->description}}"/>
-        <meta property="og:url" content="https://www.lohewala.com{{$meta->url}}"/>
-        <meta property="og:title" content="{{$meta->title}}"/>
-        <meta property="og:description" content="{{$meta->description}}"/>
-        <meta property="og:image" content="https://www.lohewala.com{{$meta->image}}"/>
-        <meta name="twitter:card" content="summary_large_image"/>
-        <meta name="twitter:url" content="https://www.lohewala.com{{$meta->url}}"/>
-        <meta name="twitter:title" content="{{$meta->title}}"/>
-        <meta name="twitter:description" content="{{$meta->description}}"/>
-        <meta name="twitter:image" content="https://www.lohewala.com{{$meta->image}}"/>
-        <link rel="canonical" href="https://www.lohewala.com{{$meta->url}}"/>
-        <link rel="alternate" href="https://www.lohewala.com{{$meta->url}}" hreflang="x-default" />
-        <link rel="alternate" hreflang="en" href="https://www.lohewala.com{{$meta->url}}">
-        <link rel="preconnect" href="https://www.lohewala.com{{$meta->url}}" />
-        <link rel="dns-prefetch" href="https://www.lohewala.com{{$meta->url}}" />
-        <link rel="preload" as="image" href="https://www.lohewala.com{{$meta->image}}"/>
-        <meta name="allow-search" content="yes"/>
-        <meta property="og:locale" content="en_US"/>
-        <meta property="og:type" content="website"/>
-        <meta property="og:site_name" content="Amitkk"/>
-        <meta property="article:modified_time" content="2021-08-23T17:49:25+00:00"/>
-        <meta property="fb:app_id" content="154761472308630"/>
+        <link rel="canonical" href="http://lohewala.test{{ $meta['url'] }}">
+        <link rel="alternate" href="http://lohewala.test{{ $meta['url'] }}" hreflang="x-default">
+        <link rel="alternate" hreflang="en" href="http://lohewala.test{{ $meta['url'] }}">
+        <link rel="preconnect" href="http://lohewala.test{{ $meta['url'] }}">
+        <link rel="dns-prefetch" href="http://lohewala.test{{ $meta['url'] }}">
+        <meta name="allow-search" content="yes">        
+        <meta property="article:published_time" content="{{  \Carbon\Carbon::now()->format('Y-m-d') }}T14:30:00+00:00">
+        <meta property="article:modified_time" content="{{  \Carbon\Carbon::now()->format('Y-m-d') }}T00:15:10+00:00">
+        <meta property="og:locale" content="en_US">
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="{{ $meta['title'] }}">
+        <meta property="og:description" content="{{ $meta['description'] }}">
+        <meta property="og:url" content="http://lohewala.test{{ $meta['url'] }}">
+        <meta property="og:site_name" content="{{ config('amitkk.brand') }}">
+        <meta property="og:image" content="http://lohewala.test{{ $meta['image'] }}">
+        <meta property="og:image:width" content="800">
+        <meta property="og:image:height" content="671">
+        <meta property="og:image:type" content="image/png">
+
+        <meta name="twitter:title" content="{{ $meta['title'] }}">
+        <meta name="twitter:description" content="{{ $meta['description'] }}">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:creator" content="@AmitdoubleK">
+        <meta name="twitter:site" content="@AmitdoubleK">
+        <meta name="twitter:label1" content="Written by">
+        <meta name="twitter:data1" content="{{ config('amitkk.owner') }}">
+        <meta name="twitter:label2" content="Est. reading time">
+        <meta name="twitter:data2" content="10 minutes">
+        <meta name="twitter:url" content="http://lohewala.test{{ $meta['url'] }}">
+        <meta name="twitter:image" content="http://lohewala.test{{ $meta['image'] }}">
         <link rel="icon" type="image/x-icon" href="/images/icons/favicon.png">
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
         @livewireStyles
